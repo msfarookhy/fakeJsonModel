@@ -1,0 +1,100 @@
+body {
+ 
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(231, 243, 241);
+}
+
+a {
+  color: rgb(253, 250, 250);
+  text-decoration: none;
+}
+.navbar-expand-lg{
+
+  padding-left: 40%;
+
+}
+
+
+
+/*navbar style*/
+nav {
+  background-color: #000000;
+}
+span.navbar-toggler-icon{
+  color: white;
+  background-color: #dadada;
+}
+
+#navbarSupportedContent ul{
+  padding-left: 35px;
+  color: white;
+}
+.navbar-nav li{
+  padding-right: 5px;
+}
+.nav-item .nav-link:link {
+  color: white;
+
+}
+/* .nav-item .nav-link:hover {
+  background-color: #FD7272;
+} */
+
+
+
+/*.nav-item .nav-link:active {*/
+/*color: white;*/
+/*background-color: red;*/
+/*}*/
+
+.navbar-nav li.active {
+  background-color:#222f3e;
+  color:#fff;
+
+}
+/* 
+ #pad{
+  margin: 0,auto;
+  display: inline-flex;
+} */
+
+/* content */
+
+.item {
+
+ border: solid 1px black;
+ margin-right: 40px;
+ margin-left: 20px;
+ margin-top: 30px;
+padding: 10px;
+font-size: 10px;
+text-align: center;
+height: 80%;
+background-color: #000000
+
+}
+
+.content{
+  display: grid;
+  grid-gap: 30px 10px;
+  grid-template-columns: auto auto auto;
+  background-color:white
+
+}
+
+.cl h5{
+  color: white;
+}
+
+.p h5{
+  color: white;
+}
+
+.q h5{
+  color: white;
+
+}
+
+
+
+
